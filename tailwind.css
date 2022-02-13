@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.list-menu-item {
+  @apply font-semibold
+  text-[16px]
+  pb-7
+  hover:text-green-600
+  hover:transform transition
+  duration-300
+  ease-out
+  md:py-0
+  
+  /* whitespace-nowrap; */;
+}
